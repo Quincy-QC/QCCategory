@@ -1,0 +1,6 @@
+use_frameworks!
+target 'QCCategory_Tests' do
+  pod 'QCCategory', :path => '../'
+  
+  
+end
