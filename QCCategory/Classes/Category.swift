@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Test
 
 extension UITextField {
     
