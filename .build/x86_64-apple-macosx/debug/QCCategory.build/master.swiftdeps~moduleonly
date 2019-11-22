@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "3ec0a509245862d738643ca0739fd157"
+build_time: [1574413854, 788263000]
+inputs:
+  "/Users/Quincy-QC/Documents/Swift Demos/QCCategory/Sources/QCCategory/QCCategory.swift": [1574412421, 629492795]

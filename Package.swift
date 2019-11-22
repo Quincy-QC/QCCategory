@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "QCCategory",
             dependencies: []),
-        .testTarget(
-            name: "QCCategoryTests",
-            dependencies: ["QCCategory"]),
     ]
 )
