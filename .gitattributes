@@ -1,3 +1,4 @@
-*.js linguist-language=Swift
-*.css linguist-language=Swift
-*.html linguist-language=Swift
+*.json linguist-language=Swift
+*.plist linguist-language=Swift
+*.lock linguist-language=Swift
+*.xcconfig linguist-language=Swift
