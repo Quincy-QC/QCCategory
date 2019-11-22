@@ -6,10 +6,10 @@
 //  Copyright © 2019 Quincy-QC. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
-import Test
 
-extension UITextField {
+public extension UITextField {
     
     class func create(placeHolder: String, textColor: UIColor = .black, placeholderColor: UIColor? = UIColor(white: 1.0, alpha: 0.6), font: UIFont = UIFont.preferredFont(forTextStyle: .body).withSize(18)) -> UITextField {
         let textField = UITextField()
@@ -39,7 +39,7 @@ extension UITextField {
 }
 
 
-extension UIButton {
+public extension UIButton {
     
     class func create(title: String, textColor: UIColor, font: UIFont) -> UIButton {
         let button = UIButton(type: .system)
@@ -67,7 +67,7 @@ extension UIButton {
 }
 
 
-extension UILabel {
+public extension UILabel {
     
     class func create(title: String, textColor: UIColor = .black, font: UIFont) -> UILabel {
         let label = UILabel()
@@ -85,7 +85,7 @@ extension UILabel {
 }
 
 
-extension UIView {
+public extension UIView {
     
     func parentViewController() -> UIViewController? {
         var next = superview
@@ -100,7 +100,7 @@ extension UIView {
 }
 
 
-extension UIViewController {
+public extension UIViewController {
     
     func presentAlertController(_ viewControllerToPresent: UIViewController, _ completion: (() -> Void)? = nil) {
         present(viewControllerToPresent, animated: true) {
@@ -114,3 +114,4 @@ extension UIViewController {
     }
 }
 
+#endif

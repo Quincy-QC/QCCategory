@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'QCCategory/Classes/Test.swift'
+  s.source_files = 'Sources/**/*'
 
   # s.resource_bundles = {
   #   'QCCategory' => ['QCCategory/Assets/*.png']
@@ -39,8 +39,4 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.framework = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-#  s.subspec 'Core' do |ss|
-#      ss.source_files = 'QCCategory/Classes/Test.swift'
-#      ss.framework = 'UIKit'
-#  end
 end
