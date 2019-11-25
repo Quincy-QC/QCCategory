@@ -1,5 +1,8 @@
 # OS X
 .DS_Store
+.build
+.swiftpm
+.travis.yml
 
 # Xcode
 build/
