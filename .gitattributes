@@ -1,0 +1,4 @@
+*.json linguist-language=Swift
+*.plist linguist-language=Swift
+*.lock linguist-language=Swift
+*.xcconfig linguist-language=Swift
